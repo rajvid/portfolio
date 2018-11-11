@@ -5,7 +5,7 @@ body {
 
 header {
   border: 5px solid white;
-  color:white;
+  color: white;
   font-family: 'Playfair Display', serif;
   font-size: 1.5em;
   background-color: #008080;
@@ -31,7 +31,7 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -60,7 +60,7 @@ article {
   text-align: justify;
   justify-content: space-around;
   padding: .8rem .9rem .8rem .9rem;
-  line-height:normal;
+  line-height: normal;
 }
 
 article > h1,h3,h4 {
@@ -105,8 +105,8 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-width:5px;
-  border-style:outset;
+  border-width: 5px;
+  border-style: outset;
   border-color: gray;
   border-radius: 0.9%;
   padding: 40px;
