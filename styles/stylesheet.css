@@ -67,6 +67,25 @@ article > h1,h3,h4 {
   color: #004d4d;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+article a:visited {
+  color: #008080;
+}
+
+p:nth-of-type(5) {
+  color: #008080;
+  font-style: oblique;
+}
+
+p:nth-child(6n) {
+  color: #008080;
+  font-style: oblique;
+}
+
 .main-container {
   display: flex;
   padding: 2rem;
@@ -128,12 +147,6 @@ img {
   font-weight: bold;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: normal;
-}
-
 footer {
   text-align: center;
   color: black;
@@ -155,9 +168,43 @@ footer {
   padding: 5px;
 }
 
-.fa-twitter {
-  color: rgb(40, 170, 225);
+.fa-youtube {
+  color: red;
   font-size: 30px;
   text-align: center;
   padding: 5px;
+}
+
+#delay:hover {
+  font-size: 30px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay: .2s;
+  background-color: #004d4d;
+  color: white;
+}
+
+#delay0:hover {
+  font-size: 30px;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay: .2s;
+  background-color: #004d4d;
+  color: white;
+}
+
+#delay1:hover {
+  font-size: 25px;
+}
+
+#delay2:hover {
+  font-size: 25px;
+}
+
+#delay3:hover {
+  font-size: 25px;
+}
+
+#delay4:hover {
+  font-size: 25px;
 }
