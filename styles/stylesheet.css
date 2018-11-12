@@ -1,3 +1,5 @@
+/* Common Code */
+
 body {
   font-family: 'Slabo 27px', serif;
   font-size: 1.2em;
@@ -5,7 +7,7 @@ body {
 
 header {
   border: 5px solid white;
-  color:white;
+  color: white;
   font-family: 'Playfair Display', serif;
   font-size: 1.5em;
   background-color: #008080;
@@ -31,7 +33,7 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -60,7 +62,7 @@ article {
   text-align: justify;
   justify-content: space-around;
   padding: .8rem .9rem .8rem .9rem;
-  line-height:normal;
+  line-height: normal;
 }
 
 article > h1,h3,h4 {
@@ -76,75 +78,16 @@ article a:visited {
   color: #008080;
 }
 
-p:nth-of-type(5) {
-  color: #008080;
-  font-style: oblique;
-}
-
-p:nth-child(6n) {
-  color: #008080;
-  font-style: oblique;
-}
-
-.main-container {
-  display: flex;
-  padding: 2rem;
-}
-
-.left-column {
-  flex: 50%;
-  margin: 50px 20px 50px 20px;
-}
-
-.right-column {
-  flex: 50%;
-  margin: 50px 20px 50px 20px;
-}
-
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-width:5px;
-  border-style:outset;
+  border-width: 5px;
+  border-style: outset;
   border-color: gray;
   border-radius: 0.9%;
   padding: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.image1 {
-  float: left;
-  padding: 20px;
-}
-
-.image2 {
-  float: right;
-  padding: 20px;
-}
-
-.paragraph1 {
-  text-align: justify;
-  justify-content: space-between;
-  padding: 20px 20px;
-  }
-
-.paragraph2 {
-  text-align: justify;
-  justify-content: space-between;
-  padding: 30px 20px;
-}
-
-.first-letter::first-letter {
-  font-size: 300%;
-  color: #008080;
-  font-weight: bold;
-}
-
-.first-letter1::first-letter {
-  font-size: 200%;
-  color: #008080;
-  font-weight: bold;
 }
 
 footer {
@@ -175,6 +118,19 @@ footer {
   padding: 5px;
 }
 
+/* Index Page Code */
+
+.first-letter::first-letter {
+  font-size: 300%;
+  color: #008080;
+  font-weight: bold;
+}
+
+#delay:nth-of-type(5) {
+  color: #008080;
+  font-style: oblique;
+}
+
 #delay:hover {
   font-size: 30px;
   transition-property: background-color;
@@ -184,6 +140,11 @@ footer {
   color: white;
 }
 
+#delay0:nth-child(6n) {
+  color: #008080;
+  font-style: oblique;
+}
+
 #delay0:hover {
   font-size: 30px;
   transition-property: background-color;
@@ -191,6 +152,23 @@ footer {
   transition-delay: .2s;
   background-color: #004d4d;
   color: white;
+}
+
+/* Blogs Page code */
+
+.main-container {
+  display: flex;
+  padding: 2rem;
+}
+
+.left-column {
+  flex: 50%;
+  margin: 50px 20px 50px 20px;
+}
+
+.right-column {
+  flex: 50%;
+  margin: 50px 20px 50px 20px;
 }
 
 #delay1:hover {
@@ -207,4 +185,55 @@ footer {
 
 #delay4:hover {
   font-size: 25px;
+}
+
+/* Authors Page Code */
+
+.first-letter1::first-letter {
+  font-size: 200%;
+  color: #008080;
+  font-weight: bold;
+}
+
+.image1 {
+  float: left;
+  padding: 20px;
+}
+
+.image2 {
+  float: right;
+  padding: 20px;
+}
+
+.paragraph1 {
+  text-align: justify;
+  justify-content: space-between;
+  padding: 20px 20px;
+  }
+
+.paragraph2 {
+  text-align: justify;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+/* Books Page Code */
+
+.image3 {
+  padding: 2px;
+  border-color: gray;
+}
+
+.list {
+  color: #008080;
+}
+
+.book {
+  color: #008080;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
+.black {
+  color: black;
 }
