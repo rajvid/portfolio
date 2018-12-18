@@ -18,7 +18,8 @@ header {
 header > h5 {
   font-weight: lighter;
   font-style: oblique ;
-  font-size: .8em;
+  font-size: 1em;
+  color: white;
 }
 
 ul {
